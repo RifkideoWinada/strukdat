@@ -1,0 +1,23 @@
+@startuml
+
+class "Kakek" as GF {
+}
+
+class "Ayah" as F {
+}
+
+class "Paman" as U {
+}
+
+class "Anak1" as C1 {
+}
+
+class "Anak2" as C2 {
+}
+
+GF -down-> F : Ayah
+GF -down-> U : Paman
+F -down-> C1 : Anak1
+F -down-> C2 : Anak2
+
+@enduml
